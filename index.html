@@ -1,110 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Giallo Booleano</title>
-        <link rel="stylesheet" href="./new css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./new css/style.css">
+    <title>Giallo Booleano</title>
+</head>
 
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+<body>
 
-    <body>
+    <header>
+        <h1>GIALLO BOOLEANO</h1>
+    </header>
+
+    <main>
         <div class="container">
-            <!--header section-->
-            <header>
-                <h1>Giallo Booleano</h1>
-            </header>
 
-            <!--main section-->
-            <main>
-                <h2 id="sub-title">DOLCI E DESSERTS</h2>
-
-                <h2 id="section">Tiramisu`</h2>
-                <span><b>4.6</b>/5</span>
-                <span id="rate">RATE</span>
-
-                <!--tiramisu`-->
-                <div>
-                    <img src="img/image (10).png" alt="" id="tiramisu">
-                </div>
-
-                <div class="contain">
-                    <div class="contine">
-                        <span id="calories">
-                            <strong>550 kcal</strong>
-                        </span>
-                        <span id="more-info">+info</span>
-                        <hr>
-                        <span id="vegetarian">vegetariano</span>
+            <!-- sezione ricetta -->
+            <section class="ricetta">
+                <h5>DOLCI E DESSERTS</h5>
+                <h2>Tiramis&uacute; <span class="plus">(Dolce Tradizionale)</span></h2>
+                <div class="row">
+                    <!-- parte immagine/video -->
+                    <div class="col-img">
+                        <img src="./img/image (10).png" alt="Video ricetta tiramisù">
                     </div>
-
-
-                    <div id="hard">Difficolta`: <strong id="boxes">Facile</strong></div>
-                    <div class="box">Tempo: <strong>40 minuti</strong></div>
-                    <div class="box">Porzione per: <strong>8 persone</strong></div>
-                    <div class="box">Costo: <strong>contenuto</strong></div>
-                    <div class="box"><strong>Note:</strong>+2 ore di riposo in frigo</div>
+                    <!-- parte info -->
+                    <div class="col-info">
+                        <h4>In breve</h4>
+                        <div class="info-cont">
+                            <div>Difficolt&agrave;: <span>Facile</span></div>
+                            <div>Tempo: <span>40 min</span></div>
+                            <div>Porzione per: <span>8 persone</span></div>
+                            <div>Costo: <span>contenuto</span></div>
+                            <div><span>Note</span>: +2 ore di riposo in frigo</div>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
-
-                <div id="icons">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <i class="fa fa-pinterest"></i>
-                    <i class="fa fa-pinterest"></i>
+            <!-- sezione pulsanti social -->
+            <div class="socials">
+                <div class="social"><i id="fb" class="fa-brands fa-facebook"></i><span> FACEBOOK</span></div>
+                <div class="social"><i id="tw" class="fa-brands fa-twitter"></i><span class="social"> TWITTER</span>
                 </div>
+                <div class="social"><i id="inst" class="fa-brands fa-instagram"></i><span> INSTAGRAM</span></div>
+                <div class="social"><i id="pint" class="fa-brands fa-pinterest"></i><span> PINTEREST</span></div>
+                <div class="social"><i id="yout" class="fa-brands fa-youtube"></i><span> YOUTUBE</span></div>
+            </div>
 
-                <h2 id="second-title">presentation</h2>
+            <!-- sezione banner -->
+            <div class="plus">
+                <img src="./img/banner.png" alt="Banner pubblicitario">
+            </div>
 
-                <img src="img/tiramisu.jpg" alt="" id="image">
+            <!-- sezione presentazione -->
+            <section class="presentation">
+                <h3>PRESENTATION</h3>
+                <div class="border"></div>
+                <p class="clearfix"><img src="./img/tiramisu.jpg" alt="Foto tiramisu">Back in the day, grandmothers used
+                    to prepare a
+                    breakfast that we might call humble today, but was considered very rich at the time! Today the
+                    recipe is still unchanged, just break a very fresh egg into a glass, beat it with sugar, and add
+                    coffee or hot milk, for children, or <span>Marsala wine</span> or aniseed for adults. This marvelous
+                    cream gave
+                    rise to mascarpone cream used to make <span>Tiramis&uacute;</span> (mascarpone cheese and ladyfingers
+                    dessert). This is
+                    the <span>best Italian dessert</span>, the most popular and beloved of them all, and it has also
+                    birthed many
+                    other versions, even an egg-free Tiramis&uacute;! There is also a strawberry and Nutella tiramis&uacute;!
+                    Although the origins of this famous dessert are unclear, because it is disputed between the regions
+                    of Veneto, Friuli-Venezia Giulia, Piedmont, and Tuscany, it remains a cornerstone of Italian cuisine
+                    and it's widely prepared from North to South.
+                    Unfortunately, we weren’t able to find out who invented it, but we can certainly teach you how to
+                    prepare your best tiramisù ever. So here's the recipe: try it and let us know what you think!</p>
+            </section>
 
-                <p id="paragraph">
-                    Back in the day, grandmothers used to prepare a <br>
-                    breakfast that we might call humble today, but was <br>
-                    considered very rich at the time! Today the recipe is still <br>
-                    unchanged, just break a very fresh egg into a glass, beat <br>
-                    it with sugar, and add coffee or hot milk, for children, or <br>
-                    <b>Marsala wine</b>or aniseed for adults. This marvelous <br>
-                    cream gave rise to mascarpone cream used to make <br>
-                    <b>Tiramisü</b>(mascarpone cheese and ladyfingers dessert). <br>
-                    This is the <b>best Italian dessert,</b> the most popular and <br>
-                    beloved of them all, and it has also birthed many other <br>
-                    versions, even an egg-free Tiramisü! There is also a <br>
-                    strawberry and Nutella tiramisü! Although the origins of <br>
-                    this famous dessert are unclear, because it is disputed <br>
-                    between the regions of Veneto, Friuli-Venezia Giulia, <br>
-                    Piedmont, and Tuscany, it remains a cornerstone of <br>
-                    Italian cuisine and it's widely prepared from North to <br>
-                    South. Unfortunately, we weren't able to find out who <br>
-                    invented it, but we can certainly teach you how to <br>
-                    prepare your best tiramisu ever. So here's the recipe: try it <br>
-                    and let us know what you think!
-                </p>
-            </main>
-
-            <!--footer section-->
-            <footer>
-                <div id="footer">
-                    <div id="name">@ 2021 Giallo Booleano S.p.a.</div>
-                    <div id="text">Via Tal dei tali, 10 - 88046 Lamezia Terme - VAT 4394029</div>
-                    <h2 class="about">About us</h2>
-                    <h2 class="about">Terms of use</h2>
-                    <h2 class="about">Privacy Policy</h2>
-                    <h2 class="about">Cookie polici</h2>
-                    <div id="disclaimer">Disclaimer</div>
-                </div>
-            </footer>
         </div>
-    </body>
+    </main>
+
+    <footer>
+        <div class="foot-cont">
+            <div class="col">
+                <div>&copy; 2021 Giallo Booleano S.p.a.</div>
+                <div>Via Tal dei tali,10 - 88046 Lamezia Terme - VAT 43940293020</div>
+            </div>
+            <nav class="col-nav">
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </nav>
+        </div>        
+    </footer>
+
+
+</body>
 
 </html>
