@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+/*main title*/
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: rgba(250, 150, 26, 255);
+    font-family: "Nerko One", cursive;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/*main part*/
+main {
+    background-color: rgba(246, 245, 243, 255);
+    height: 2000px;
+}
+
+#sub-title {
+    color: grey;
+    margin-left: 30px;
+    padding-top: 25px;
+}
+
+#section {
+    color: rgba(78, 57, 105, 255);
+    font-family: "Nerko One", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 28px;
+    margin-left: 30px;
+    margin-top: 0;
+    display: inline-block;
+    width: 840px;
+}
+
+/*rate style*/
+#rate {
+    border-radius: 35%;
+    background-color: rgba(247, 151, 46, 255);
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/*tiramisu` image*/
+#tiramisu {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    display: block;
+}
+
+#calories {
+    display: inline-block;
+    color: white;
+    background-color: rgba(123, 105, 162, 255);
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+hr {
+    border-color: grey;
+}
+
+#more-info {
+    display: inline-block;
+    color: rgba(247, 151, 46, 255);
+    font-size: 25px;
+    margin-left: 650px;
+    padding-bottom: 20px;
+}
+
+.contain {
+    width: 900px;
+    height: 450px;
+    background-color: white;
+    margin: auto;
+    border: 1px solid white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contine {
+    width: 810px;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: rgba(246, 245, 249, 255);
+}
+
+#vegetarian {
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+#riposo {
+    margin-top: 50px;
+}
+
+.box,
+#hard {
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 22px;
+
+}
+
+/*social media icons*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color: white;
+    background-color: #3B5998;
+}
+
+.fa-twitter {
+    color: rgba(0, 158, 255, 255);
+    background-color: white;
+}
+
+.fa-instagram {
+    color: rgba(222, 72, 127, 255);
+    background-color: white;
+}
+
+.fa-pinterest {
+    color: rgba(222, 72, 127, 255);
+    background-color: white;
+}
+
+#icons {
+    text-align: center;
+    margin-right: 130px;
+}
+
+.fa {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+#second-title {
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+#image {
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+#paragraph {
+    margin-left: 100px;
+}
+
+footer {
+    background-color: rgba(124,105,164,255);
+}
+
+#footer {
+    text-align: center;
+    color: white;
+}
+
+.about {
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#disclaimer {
+    text-decoration: underline;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+#text {
+    font-size: 16px;
+}
+
+#name {
+    padding-top: 40px;
+}
+
+
+@media screen and (max-width: 992px) {
+    body {
+        padding: 100px;
+        h1 {font-size: 100px;}
+    }
+}
+
