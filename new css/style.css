@@ -160,3 +160,31 @@ h5 {
 #yout {
     color: #e62222;
 }
+
+/* sezione presentazione */
+
+h3 {
+    margin: 20px 0;
+}
+
+.border {
+    width: 10%;
+    height: 2px;
+    background-color: #f7972e;
+    margin-bottom: 15px;
+}
+
+.presentation img {
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.presentation span {
+    font-weight: bold;
+}
+
+.presentation p {
+    line-height: 1.5;
+}
